@@ -1,0 +1,159 @@
+
+#ADDITIONAL CONDITIONS
+xorme_aristocracy_idea_group_priority_trigger = {
+	OR = {
+		tag = A59
+		tag = G26
+		tag = G37
+		tag = H74
+		tag = Y95
+	}
+}
+
+xorme_defensive_idea_group_priority_trigger = {
+	OR = {
+		tag = A29
+		tag = A32
+		tag = A46
+		tag = F27
+		tag = R38
+	}
+}
+
+xorme_administrative_idea_group_priority_trigger = {
+	OR = {
+		development = 300
+		is_great_power = yes
+	}
+}
+
+xorme_quality_idea_group_priority_trigger = {
+	OR = {
+		tag = H74
+		tag = Y09
+		tag = A30
+		tag = A04
+		tag = A38
+		tag = Y65
+	}
+}
+
+xorme_offensive_idea_group_priority_trigger = {
+	OR = {
+		tag = F27
+		tag = F29
+		tag = Y23
+		tag = Y01
+		tag = A38
+		tag = A33
+	}
+}
+
+xorme_quantity_idea_group_priority_trigger = {
+	OR = {
+		tag = A13
+		tag = F46
+		tag = R62
+		tag = A01
+		tag = Y91
+	}
+}
+
+xorme_innovative_idea_group_priority_trigger = {
+	OR = {
+		tag = A04
+		tag = A38
+		tag = I03
+		tag = I15
+		tag = F41
+		tag = H75
+		tag = Y01
+		tag = I98
+		tag = Y06
+		tag = Y29
+		tag = Z03
+		tag = A86
+	}
+}
+
+xorme_exploration_idea_group_priority_trigger = {
+	OR = {
+		tag = A01 #Lorent
+		tag = A02 #Deranne
+		tag = A21 #Venail
+		tag = A33 #Verne
+		tag = A11 #Pearlsedge
+		tag = A47 #Eborthil
+		tag = A29 #Busilar
+		tag = Z18 #Frozenmaw
+		tag = Z50 #Grombar
+	}
+}
+
+xorme_late_expansion_idea_group_priority_trigger = {
+	OR = {
+		tag = U09
+		tag = G64
+	}
+}
+
+
+xorme_nation_with_tolerance_trigger = {
+	OR = {
+		tag = J33
+		tag = R38
+	}
+}
+
+xorme_nation_with_strong_navy_trade_potential_trigger = {
+	OR = {
+		tag = U07
+		tag = U05
+		tag = A02
+		tag = A21
+		tag = Y65
+	}
+}
+
+xorme_ai_can_explo_trigger = {
+	OR = {
+		tag = A01 #Lorent
+		tag = A02 #Deranne
+		tag = A21 #Venail
+		tag = A33 #Verne
+		tag = A11 #Pearlsedge
+		tag = A47 #Eborthil
+		tag = A29 #Busilar
+		tag = Z18 #Frozenmaw
+		tag = Z50 #Grombar
+		tag = A05 #Reveria
+		tag = U08 #Ekha
+		tag = A79 #Gnomish Hierarchy
+		tag = A09 #Sorncost
+		tag = Z08 #Bjarnrik
+		tag = A19 #Portnamm
+		tag = A80 #Iochand
+		tag = Z10 #Revrhavn
+		tag = A06 #Nimscodd
+		tag = U07 #Viakkoc
+		tag = A31 #Moonhaven
+		tag = A85 #Magisterium
+		tag = A38 #Anbenncost
+		tag = A16 #Wineport
+		tag = A05 #Reveria
+		tag = A04 #Wesdam
+		tag = A13 #Gawed
+		tag = H66 #Jaherian
+		tag = H67 #Rezankand
+		tag = A55 #Dameria
+		tag = A25 #Damescrown
+		tag = A23 #Vertesk
+	}
+}
+
+xorme_ai_can_expand_trigger = {
+	OR = {
+		tag = Z18
+		tag = Z50
+	}
+}
